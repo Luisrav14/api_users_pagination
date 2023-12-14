@@ -95,11 +95,11 @@ curl http://localhost:3000/api/users
 
 **Endpoint:**
 
-- `PUT /api/users/:id`
+- `PUT /api/users/:uid`
 
 **Parámetros de la solicitud:**
 
-- `id` (Number): Identificador del usuario.
+- `uid` (String): Identificador del usuario.
 - Cualquier parámetro opcional para actualizar.
 
 **Ejemplo de solicitud:**
@@ -121,11 +121,11 @@ curl -X PUT http://localhost:3000/api/users/1 -H "Content-Type: application/json
 
 **Endpoint:**
 
-- `DELETE /api/users/:id`
+- `DELETE /api/users/:uid`
 
 **Parámetros de la solicitud:**
 
-- `id` (Number): Identificador del usuario.
+- `uid` (String): Identificador del usuario.
 
 **Ejemplo de solicitud:**
 
