@@ -52,7 +52,7 @@ curl -X POST http://localhost:3000/api/users -H "Content-Type: application/json"
 ```json
 {
   "ok": true,
-  "message": "Usuario creado"
+  "message": "User created"
 }
 ```
 
@@ -79,7 +79,7 @@ curl http://localhost:3000/api/users
   "ok": true,
   "data": [
     {
-      "id": 1,
+      "_id": 1,
       "nombre": "Ejemplo Usuario",
       "fechaNacimiento": "1990-01-01",
       "edad": 30,
@@ -113,7 +113,7 @@ curl -X PUT http://localhost:3000/api/users/1 -H "Content-Type: application/json
 ```json
 {
   "ok": true,
-  "message": "Usuario actualizado"
+  "message": "User updated"
 }
 ```
 
@@ -138,7 +138,7 @@ curl -X DELETE http://localhost:3000/api/users/1
 ```json
 {
   "ok": true,
-  "message": "Usuario eliminado"
+  "message": "User deleted"
 }
 ```
 
