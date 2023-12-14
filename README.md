@@ -142,4 +142,3 @@ curl -X DELETE http://localhost:3000/api/users/1
 }
 ```
 
-Asegúrate de consultar la documentación para conocer más detalles sobre cada endpoint y sus posibles respuestas. ¡Disfruta de tu API de usuarios con Mongoose y Express!
